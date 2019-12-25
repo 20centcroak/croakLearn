@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<title>Dev !</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="iso-8859-15">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<style>
+body, a,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif}
+a{text-decoration:none;}
+a:hover{color:DeepSkyBlue;}
+li{word-wrap: break-word;}
+.spacer{width:100%;height:500px;}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidenav to 120px */
+.w3-sidenav {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidenav (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidenav - hidden on small screens) -->
+<nav class="w3-sidenav w3-center w3-small w3-hide-small">
+  <!-- Avatar image in top left corner -->
+  <img src="pictures/laptop.jpg"  alt="laptop" style="width:100%">
+  <a class="w3-padding-large w3-black" href="#">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>Accueil</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#biblio">
+    <i class="fa fa-bookmark-o w3-xxlarge"></i>
+    <p>Cours</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#exemples">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>Exemples</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <ul class="w3-navbar w3-left-align w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <li class="w3-left" style="width:25% !important"><a href="#" title="home"><i class="fa fa-home w3-xlarge"></i></a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#biblio" title="cours"><i class="fa fa-bookmark-o w3-xlarge"></i></a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#exemples" title="exemples"><i class="fa fa-eye w3-xlarge"></i></a></li>
+  </ul>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span>Dev !</h1>
+    <p>Les cours, les outils, les exemples<p>
+    <img src="pictures/laptop.jpg" alt="laptop" class="w3-image" width="992" height="653">
+  </header>
+  
+    <!-- Grid for bookmarks tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey" id="biblio">Cours</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+		<div class="w3-third">
+			<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-margin-bottom">
+				<li class="w3-dark-grey w3-large w3-padding-32">Références</li>
+				<li><a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference">javascript reference</a></li>
+				<li><a href="https://api.jquery.com/">jquery reference</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">css reference</a></li>	
+				<li><a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/memento-des-proprietes-css">memento css</a></li>	
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference">html reference</a></li>
+				<li><a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/memento-des-balises-html">memento html</a></li>
+			</ul>
+			<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-margin-bottom">
+				<li class="w3-dark-grey w3-large w3-padding-32">Outils</li>
+				<li><a href="http://validator.w3.org/">w3c html validator</a></li>
+				<li><a href="http://stackoverflow.com/">StackOverFlow</a></li>
+				<li><a href="http://caniuse.com/">CanIUse - supportive browsers</a></li>
+				<li><a href="http://html5test.com/">html5 supportive browsers</a></li>
+				<li><a href="http://fmbip.com/">html5 supportive browser - my IP adress</a></li>
+				<li><a href="http://www.nicolas-hoffmann.net/utilitaires/crypteur.php">crypter une adresse mail</a></li>
+				<li><a href="https://openclassrooms.com/forum/sujet/quelques-listes-deroulantes-25295">listes déroulantes (pays...)</a></li>
+				<li><a href="http://www.virtuemart.fr/">e-commerce open source VirtueMart</a></li>
+				<li><a href="https://developer.android.com/studio/index.html">Android studio</a></li>
+				<li><a href="https://color.adobe.com/fr/create/color-wheel/">Adobe color selection</a></li>
+				<li><a href="https://jsfiddle.net/">jsfiddle - test javascript</a></li>
+				<li><a href="http://codepen.io/">codepen</a></li>
+			</ul>
+			<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-margin-bottom">
+				<li class="w3-dark-grey w3-large w3-padding-32">Hacking</li>
+				<li><a href="http://www.leblogduhacker.fr/commencez-ici/">Le blog du hacker</a></li>
+				<li><a href="http://www.funinformatique.com/hacking/">fun informatique</a></li>
+				<li><a href="http://bases-hacking.org/faille-include.html">bases hacking</a></li>
+			</ul>
+		</div>
+
+		<div class="w3-third">
+			<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-margin-bottom">
+				<li class="w3-dark-grey w3-large w3-padding-32">Apprendre</li>
+				<li><a href="http://www.w3schools.com">w3schools</a></li>
+				<li><a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3">html 5</a></li>
+				<li><a href="https://openclassrooms.com/courses/apprenez-a-coder-avec-javascript">javascript</a></li>
+				<li><a href="https://openclassrooms.com/courses/simplifiez-vos-developpements-javascript-avec-jquery">jQuery</a></li>
+				<li><a href="https://openclassrooms.com/courses/ajax-et-l-echange-de-donnees-en-javascript">ajax</a></li>
+				<li><a href="https://openclassrooms.com/courses/utilisez-des-api-rest-dans-vos-projets-web">API REST</a></li>
+				<li><a href="https://openclassrooms.com/courses/les-applications-web-avec-javafx">Java FX</a></li>
+				<li><a href="https://openclassrooms.com/courses/prenez-en-main-bootstrap">Bootstrap</a></li>
+				<li><a href="https://angularjs.org/">Angularjs</a></li>
+				<li><a href="https://openclassrooms.com/courses/developpez-une-application-pour-android">Android</a></li>
+				<li><a href="http://squeaki.recitmst.qc.ca/ScratchInitiation">Scratch</a></li>	
+			</ul>
+			<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-margin-bottom">
+				<li class="w3-dark-grey w3-large w3-padding-32">Arduino objets connectés</li>
+				<li><a href="https://www.arduino.cc/en/Reference/HomePage">Arduino code reference</a></li>
+				<li><a href="http://www.mon-club-elec.fr/pmwiki_reference_arduino/pmwiki.php?n=Main.Reference">Arduino fran&ccedil;ais</a></li>
+				<li><a href="https://fr.flossmanuals.net/arduino/introduction-a-lelectronique/">intro &eacute;lectronique arduino</a></li>
+				<li><a href="http://fritzing.org/home/">fritzing</a></li>
+				<li><a href="http://boutique.semageek.com/fr/">boutique arduino</a></li>					
+				<li><a href="https://www.fun-mooc.fr/courses/MinesTelecom/04018/session01/courseware/0738d37987664c5fa274b7e14a3191fd/a66416648c8d46798e4578c73afd53f4/">MOOC objets connect&eacute;s</a></li>
+			</ul>
+			<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-margin-bottom">
+				<li class="w3-dark-grey w3-large w3-padding-32">Référencement et hébergement</li>
+				<li><a href="https://openclassrooms.com/courses/les-cles-pour-reussir-son-referencement-web">open classroom</a></li>
+				<li><a href="http://www.commentcamarche.net/contents/1267-referencement-naturel-seo-guide-pratique-complet#referencer-un-site">comment &ccedil;a marche</a></li>
+				<li><a href="http://www.hostinger.fr/">h&eacute;bergement Hostinger</a></li>
+			</ul>
+		</div>
+	  
+		<div class="w3-third">
+			<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-margin-bottom">
+				<li class="w3-dark-grey w3-large w3-padding-32">API</li>
+				<li><a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/webspeechapi.html">speech API w3</a></li>
+				<li><a href="https://developer.mozilla.org/fr/docs/Web/API/WebGL_API">WebGL</a></li>
+				<li><a href="http://api.ign.fr/accueil">geo portail (ign)</a></li>
+				<li><a href="http://www.programmableweb.com/news/most-popular-apis-least-one-will-surprise-you/2014/01/23">API populaires</a></li>
+				<li><a href="https://openclassrooms.com/courses/utilisez-des-api-rest-dans-vos-projets-web/quelques-exemples-d-api-rest">API populaires - 2</a></li>
+				<li><a href="http://www.ibm.com/cloud-computing/bluemix/fr-fr/">API IBM Bluemix</a></li>
+				<li><a href="https://developer.mozilla.org/fr/docs/Web/API">API javascript</a></li>		
+			</ul>
+			<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-margin-bottom">
+				<li class="w3-dark-grey w3-large w3-padding-32">Créer API REST</li>
+				<li><a href="http://atomrace.com/blogue/techno-web/2015/02/creer-un-api-rest-outils-techniques-app-web">cr&eacute;er API REST</a></li>
+				<li><a href="https://docs.phalconphp.com/fr/latest/reference/tutorial-rest.html">cr&eacute;er API REST - 2</a></li>
+				<li><a href="https://www.sitepoint.com/best-practices-rest-api-scratch-introduction/">cr&eacute;er API REST - 3</a></li>
+				<li><a href="https://magazine.joomla.org/issues/issue-sept-2014/item/2262-developing-json-api-with-joomla-framework">JSON API with joomla</a></li>
+				<li><a href="http://www.slimframework.com/">Slim - cr&eacute;er API</a></li>
+				<li><a href="https://dzone.com/articles/swagger-make-developers-love">swagger API REST</a></li>
+				<li><a href="https://zestedesavoir.com/tutoriels/598/developpez-votre-site-web-avec-le-framework-django/">FrameWork Django</a></li>
+			</ul>
+			<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-margin-bottom">
+				<li class="w3-dark-grey w3-large w3-padding-32">Virtualisation</li>
+				<li><a href="https://www.grafikart.fr/tutoriels/hebergement/vm-vagrant-chef-solo-482">vagrant</a></li>
+				<li><a href="https://www.virtualbox.org/wiki/Downloads">virtualBox</a></li>	
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Grid for example tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey" id="exemples">Exemples</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+		<div class="w3-third">
+			<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-margin-bottom">
+				<li class="w3-dark-grey w3-large w3-padding-32">Templates et composants</li>
+				<li><a href="http://htmlcoder.me/">templates bootstrap</a></li>
+				<li><a href="https://www.freshdesignweb.com/">templates fresh web design</a></li>
+				<li><a href="http://www.webdesignerdepot.com/">webdesigner depot</a></li>
+				<li><a href="http://www.wpulti.org/best-jquery-poll-gauge-meter-chart-plugins/">jquery components</a></li>
+				<li><a href="http://www.chartjs.org/">javascript charts</a></li>
+				<li><a href="https://developers.google.com/chart/interactive/docs/gallery/gauge#example">google gauges</a></li>
+			</ul>
+		</div>
+		<div class="w3-third">
+			<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off w3-margin-bottom">
+				<li class="w3-dark-grey w3-large w3-padding-32">Exemples</li>
+				<li><a href="http://www.alsacreations.com/tuto/lire/1052-ID-slideshow-css3-target-animation-keyframes-introduction.html">slideshow en css3</a></li>
+				<li><a href="http://freejavascriptslideshow.com/fr/javascript-popup-menu-clic-droit.html">slideshows en javascript</a></li>
+				<li><a href="http://unslider.com/">sliders jquery</a></li>
+				<li><a href="http://codepen.io/rachsmith/pen/fBoiD">animation html5 - hello dots</a></li>
+				<li><a href="http://www.w3schools.com/css/css3_animations.asp">w3schools - animations css</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="spacer">&nbsp;</div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <p class="w3-medium">Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
